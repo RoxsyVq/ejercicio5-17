@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>loro</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<h1>¿Estamos en Problemas?</h1>
+				<p>Completa el formulario y te diré si el loro esta hablando</p>
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<label for="dia">¿Qué hora es:?</label>
+					<input type="text" id ="hora">
+				</div>
+            </div>
+				<div class="col-md-6">
+				<h3>¿ esta Hablando?</h3>
+				<label for="habla">
+					<input type="checkbox" onchange="habla()" id="habla"> Si </label>
+				<div id="img"></div>
+				</div>
+				 </div>
+				<br><br><br>
+		<div class=" row text-center">
+							<button onclick="calcular()" class="btn btn-primary">Evaluar</button>
+
+				<h4 class="text-info">Hoy</h4>
+				<div id="salida" style="font-size:50px;" class="text-center">-</div>
+				<h4 class="text-info">Estamos en problemas?</h4>
+	</div>
+       
+    </div>
+        
+        
+</body>
+<script src="main.js"></script>
+</html>
