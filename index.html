@@ -11,36 +11,45 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1>¿Estamos en Problemas?</h1>
-				<p>Completa el formulario y te diré si el loro esta hablando</p>
+				<h1>¿El loro esta Hablando?</h1>
+				<p>Completa el formulario y te diré si estamos en problemas</p>
 				<hr>
-			</div>
-		</div>
+
+		
 		<div class="row">
 			<div class="col-md-6">
 				<div class="form-group">
-					<label for="dia">¿Qué hora es:?</label>
-					<input type="text" id ="hora">
+					<label class="control-label"for="dia">¿Qué hora es:?</label>
+					<input type="text" class="form-control" id ="hora">
 				</div>
-            </div>
-				<div class="col-md-6">
+            
+				<div class="form-group">
 				<h3>¿ esta Hablando?</h3>
-				<label for="habla">
+				<label for="habla" class="control-label">
 					<input type="checkbox" onchange="habla()" id="habla"> Si </label>
-				<div id="img"></div>
-				</div>
+				</div> <br> <br> <br>
+				<a href=" https://roxsyvq.github.io/ejercicio4-17/" ><img src="img/antes.png" alt="" width="25%"></a>
 				 </div>
-				<br><br><br>
-		<div class=" row text-center">
-							<button onclick="calcular()" class="btn btn-primary">Evaluar</button>
+                <div class="col-md-6">
+		        <div class="text-center">
+                <button onclick="calcular()" class="btn btn-primary">Evaluar</button>
 
 				<h4 class="text-info">Hoy</h4>
 				<div id="salida" style="font-size:50px;" class="text-center">-</div>
-				<h4 class="text-info">Estamos en problemas?</h4>
-	</div>
-       
+				<h4 class="alert alert-info" style="font-size:12px;">
+				    1 <span></span> estamos en problemas <br>
+				    0 <span></span> no estamos en problemas
+				</h4>
+	        </div>
+	        <div class="text-right">
+	            <a href="https://roxsyvq.github.io/ejercicio6-17/" ><img src="img/despues.png" alt="" width="25%"></a>
+                                <br> <br>
+
+                 <a href="https://github.com/RoxsyVq/ejercicio5-17"><button type="button" class="btn btn-success">Ver Codigo</button></a>
+	        </div>
+        </div>
     </div>
-        
+            </div>  </div> </div> 
         
 </body>
 <script src="main.js"></script>
